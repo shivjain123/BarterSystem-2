@@ -198,14 +198,14 @@ showModal=()=>{
             <Text style={{color:'#ff8a65'}}> A Trading Method </Text>
           </View>
           <View style={styles.buttonContainer}>
-            <Text style={{color:'#ff5722', fontSize:18, fontWeight:'bold',marginLeft:55}}>USERNAME</Text>
+            <Text style={{color:'#ff5722', fontSize:18, fontWeight:'bold',marginLeft:55}}>EMAIL ID</Text>
             <View style={{alignItems:'center'}}>
               <TextInput
               style={styles.loginBox}
               keyboardType ='email-address'
               onChangeText={(text)=>{
                 this.setState({
-                  username: text
+                  emailId: text
                 })
               }}
               />
